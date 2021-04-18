@@ -1,0 +1,132 @@
+body {
+    margin: 3%; 
+    width: 1000px;
+    font-family: 'Helvetica', 'Droid Sans', 'Arial', sans-serif;
+    background: color #b0b0b0; 
+    display: flex;
+}
+
+.texto {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
+}
+
+.contenedor_principal {
+    background: #b0b0b0;
+    color: black;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+   
+.hist_ptjes {
+    background: chartreuse;
+    width: 33%;
+    height: 50px;
+}
+
+.dist_ptjes {
+    background: crimson;
+    width: 33%;
+    height: 50px;
+}
+
+img{
+    height: 250px;
+}
+
+.contenedor_botones {
+    background: #b0b0b0;
+    color: black;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.boton_hist {
+    background: darkblue;
+    color: darkgray;
+    border-radius: 10px;
+}
+
+.boton_dist {
+    background: darkblue;
+    color: darkgray;
+    border-radius: 10px;
+}
+
+/*div#contenedor_principal {
+    margin: 10 10px;
+    display: flex;
+    width: 250px;
+    padding: 50px 100px;
+    background-color: white;
+    vertical-align: baseline;
+}
+
+
+div#contenedor_principal img#hist_ptje {
+    margin: 10 10px;
+    vertical-align: text-bottom;
+}
+
+div#contenedor_principal img#distribucion_ptjes {
+    margin: 10 10px
+}
+
+div#contenedor_botones {
+    margin: 10 10px;
+    display: inline-block;
+    width: 250px;
+    padding: 50px 100px;
+    background-color: black;
+    vertical-align: top;
+}
+div#sider img#foto-perfil {
+    margin: 0 50px;
+}
+
+div#sider p .info-personal {
+    color: #00c7ff;
+}
+
+div#main-container {
+    width: 550px;
+    padding: 15px 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div#main-container .seccion {
+    background-color: #f4f4f4;
+    margin: 15px 0;
+    padding: 15px 25px;
+}
+
+
+div#main-container #cursos .curso {
+    display: inline-block;
+    max-width: 150px;
+    height: 100px;
+    padding: 5px 5px;
+    background-color: #c2c2c2;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+div#main-container #cursos .curso h5{
+    margin: 0;
+    background-color: #00c7ff;
+}
+
+div#main-container #cursos .curso p{
+    font-size: 10px;
+} 
+
+UNA COSA SON LOS ITEMS Y OTRA LA FOTO... VER COMO METER LA FOTO AL ITEM*/
+
